@@ -1,0 +1,82 @@
+Operateur Telephonie Complexe,7000,A1.1,3423
+Operateur Telephonie Complexe,3000,A1.1,2623
+Operateur Telephonie Complexe,1500,A1.1,1873
+Operateur Telephonie Complexe,750,A1.1,1273
+Operateur Telephonie Complexe,300,A1.1,733
+Operateur Telephonie Complexe,150,A1.2,433
+Operateur Telephonie Complexe,60,A1.2,235
+Operateur Telephonie Complexe,30,A1.2,160
+Operateur Telephonie Complexe,15,A1.3,140
+Operateur Telephonie Complexe,7.5,A1.3,80
+Operateur Telephonie Complexe,1.5,A1.3,56
+Operateur Telephonie Complexe,0,A1.3,32
+Operateur Telephonie Simple,7000,A1.1,2610
+Operateur Telephonie Simple,3000,A1.1,1810
+Operateur Telephonie Simple,1500,A1.1,1360
+Operateur Telephonie Simple,750,A1.1,985
+Operateur Telephonie Simple,300,A1.1,535
+Operateur Telephonie Simple,150,A1.2,355
+Operateur Telephonie Simple,60,A1.2,220
+Operateur Telephonie Simple,30,A1.2,160
+Operateur Telephonie Simple,15,A1.3,140
+Operateur Telephonie Simple,7.5,A1.3,80
+Operateur Telephonie Simple,1.5,A1.3,56
+Operateur Telephonie Simple,0,A1.3,32
+Dechets & Recyclage,200,B1.1,544
+Dechets & Recyclage,150,B1.1,496
+Dechets & Recyclage,100,B1.2,344
+Dechets & Recyclage,50,B1.3,184
+Dechets & Recyclage,5,B1.4,96
+Dechets & Recyclage,1,B1.5,48
+Dechets & Recyclage,0,B1.6,0
+Transport operationnel,0,C2.1,40
+Transport operationnel,5,C2.1,68
+Transport operationnel,10,C2.1,70
+Transport operationnel,15,C2.2,99
+Transport operationnel,20,C2.2,108
+Transport operationnel,25,C2.2,162
+Transport operationnel,30,C2.2,180
+Transport operationnel,35,C2.3,280
+Transport operationnel,55,C2.3,340
+Transport operationnel,100,C2.3,535
+Edition,0,D3.1,27
+Edition,2.5,D3.2,65
+Edition,5,D3.3,88
+Edition,30,D3.4,100
+Edition,50,D3.5,160
+Hotellerie,0,E1.1,50
+Hotellerie,1,E1.2,65
+Hotellerie,2,E1.3,70
+Hotellerie,4,E1.4,85
+Hotellerie,5,E1.5,90
+Communication,0,F1.1,78
+Communication,25,F1.2,332
+Communication,50,F1.3,494
+Conseil en innovation et ingenierie,0,G2.1,16
+Conseil en innovation et ingenierie,2,G2.1,96
+Conseil en innovation et ingenierie,10,G2.2,107
+Conseil en innovation et ingenierie,25,G2.2,207
+Conseil en innovation et ingenierie,60,G2.3,412
+Conseil en innovation et ingenierie,90,G2.3,584
+Conseil en innovation et ingenierie,200,G2.3,1700
+Conseil et support informatique,0,H1,20
+Conseil et support informatique,1,H2.1,35
+Conseil et support informatique,10,H2.2,55
+Conseil et support informatique,50,H2.3,80
+Edition de logiciels applicatifs,0,H1,20
+Edition de logiciels applicatifs,1,H2.1,40
+Edition de logiciels applicatifs,10,H2.2,55
+Edition de logiciels applicatifs,50,H2.3,80
+Location financement,0,H1,20
+Location financement,1,H2.2,50
+Location financement,50,H2.3,70
+Construction,0,I2.1,35
+Construction,5,I2.1,90
+Construction,20,I2.1,115
+Construction,40,I2.2,150
+Construction,70,I2.2,175
+Construction,150,I2.2,300
+Construction,400,I2.2,500
+Construction,800,I2.3,700
+Construction,1000,I2.3,1000
+Construction,2000,I2.3,1480

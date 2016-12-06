@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1023</width>
+    <height>652</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frameResults">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1001</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLineEdit" name="textVolume">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="textPrice">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frameScope">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>141</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Scope</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="slideScope">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>121</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="maximum">
+      <number>50</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::TicksBelow</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="buttonScope">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>220</y>
+       <width>141</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>RAZ</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="listScope">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>121</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::SingleSelection</enum>
+     </property>
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frameCsp">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>350</y>
+      <width>141</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Csp</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="buttonCsp">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>110</y>
+       <width>141</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>RAZ</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="slideCsp">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>121</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="maximum">
+      <number>50</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::TicksBelow</enum>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="listCsp">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>121</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frameCountry">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>90</y>
+      <width>161</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Country</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="listCountry">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>141</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::SingleSelection</enum>
+     </property>
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+    </widget>
+    <widget class="QPushButton" name="buttonCountry">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>370</y>
+       <width>161</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>RAZ</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="slideCountry">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>350</y>
+       <width>141</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimum">
+      <number>-100</number>
+     </property>
+     <property name="maximum">
+      <number>500</number>
+     </property>
+     <property name="singleStep">
+      <number>10</number>
+     </property>
+     <property name="pageStep">
+      <number>100</number>
+     </property>
+     <property name="sliderPosition">
+      <number>0</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::TicksBelow</enum>
+     </property>
+     <property name="tickInterval">
+      <number>100</number>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>681</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QTableWidget" name="listCompany">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>21</y>
+       <width>671</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderHighlightSections">
+      <bool>false</bool>
+     </attribute>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Company</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="goButton">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>500</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>bridge</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="countryButton">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>500</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>country</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1023</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
